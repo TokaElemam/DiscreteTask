@@ -1,16 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Project_1
+namespace Project_2
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello at Prime application");
+
+            Console.WriteLine("Hello to Perfect numbers application");
 
             Console.WriteLine("Please Enter n1");
             int n1 = int.Parse(Console.ReadLine());
@@ -18,33 +20,26 @@ namespace Project_1
             Console.WriteLine("Please Enter n2");
             int n2 = int.Parse(Console.ReadLine());
 
+            Console.WriteLine("The Perfect numbers are:");
 
-            for (int i = n1; i <= n2; i++)
+            for(int i = n1; i <= n2; i++)
             {
-                int count = 0;
+                int j = 1;
+                int sum = 0;
+              while(j < i)
+              { 
+                if (i % j == 0)
+                    sum = sum + j;
+                    j++;
+              }
+                if (sum == i)
+                    Console.WriteLine("{0} ", i);
 
-                for (int j = 2; j <= i / 2; j++)
-                {
-                    if (i % j == 0)
-                    {
-                        count++;
-                        break;
-                    }
-                }
-                if (count == 0 && i != 1)
-                {
-
-                    Console.WriteLine("\n" + i + "is prime");
-
-
-                }
 
             }
 
-
-
-            Console.ReadKey();
-
+                Console.ReadKey();  
+            
         }
     }
 }

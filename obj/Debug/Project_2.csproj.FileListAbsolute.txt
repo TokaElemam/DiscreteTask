@@ -1,0 +1,8 @@
+C:\Users\SAFEER\source\repos\Project_2\bin\Debug\Project_2.exe.config
+C:\Users\SAFEER\source\repos\Project_2\bin\Debug\Project_2.exe
+C:\Users\SAFEER\source\repos\Project_2\bin\Debug\Project_2.pdb
+C:\Users\SAFEER\source\repos\Project_2\obj\Debug\Project_2.csproj.AssemblyReference.cache
+C:\Users\SAFEER\source\repos\Project_2\obj\Debug\Project_2.csproj.SuggestedBindingRedirects.cache
+C:\Users\SAFEER\source\repos\Project_2\obj\Debug\Project_2.csproj.CoreCompileInputs.cache
+C:\Users\SAFEER\source\repos\Project_2\obj\Debug\Project_2.exe
+C:\Users\SAFEER\source\repos\Project_2\obj\Debug\Project_2.pdb
